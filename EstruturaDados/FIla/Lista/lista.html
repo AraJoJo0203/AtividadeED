@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simulação de Lista Encadeada</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="lista.css">
+  <title>lista</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Simulação de Lista Encadeada</h1>
+    <div>
+      <label for="item">Item:</label>
+      <input type="text" id="item">
+      <button onclick="addItemAtStart()">Adicionar no Início</button>
+      <button onclick="addItemAtEnd()">Adicionar no Final</button>
+      <button onclick="addItemAtMiddle()">Adicionar no Meio</button>
+    </div>
+    <div class="list">
+      <div id="listItems"></div>
+    </div>
+    <button onclick="removeItemFromStart()">Remover do Início</button>
+    <button onclick="removeItemFromMiddle()">Remover do Meio</button>
+    <button onclick="removeItemFromEnd()">Remover do Final</button>
+    <a href="/Landing.html"><button class="botao" onclick="voltar()">Voltar</button></a>
+  </div>
+
+  <script src="lista.js"></script>
+</body>
+</html>
